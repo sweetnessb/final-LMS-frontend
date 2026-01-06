@@ -1,15 +1,7 @@
 import React from 'react';
 
-
-interface OverdueBook {
-  id: number;
-  title: string;
-  student: string;
-  daysLate: number;
-}
-
-const OverdueList: React.FC = () => {
-  const overdueData: OverdueBook[] = [
+const OverdueList = () => {
+  const overdueData = [
     { id: 1, title: "Psychology Of Money", student: "Dunsin", daysLate: 5 },
     { id: 2, title: "Java For Beginners", student: "Demilade", daysLate: 2 }
   ];
